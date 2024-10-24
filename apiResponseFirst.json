@@ -1,0 +1,1215 @@
+{
+  "layers": [
+    {
+      "currentVersion": 10.91,
+      "cimVersion": "2.9.0",
+      "id": 0,
+      "name": "Pittsboro Zoning",
+      "type": "Feature Layer",
+      "description": "Polygon features delineating Zoning classifications for the Town of Pittsboro including the Pittsboro ETJ. Data is maintained by the Chatham County GIS department via updates sent from Town of Pittsboro Planning Department on an as needed basis. Last Updated June 2015.",
+      "geometryType": "esriGeometryPolygon",
+      "sourceSpatialReference": {
+        "wkid": 102719,
+        "latestWkid": 2264,
+        "xyTolerance": 0.003280833333333333,
+        "zTolerance": 0.00002,
+        "mTolerance": 0.00002,
+        "falseX": -121841900,
+        "falseY": -93659000,
+        "xyUnits": 3048.0060960121928,
+        "falseZ": 0,
+        "zUnits": 399999.99999999994,
+        "falseM": 0,
+        "mUnits": 1
+      },
+      "copyrightText": "Town of Pittsboro, Chatham County, Chatham County GIS",
+      "parentLayer": null,
+      "subLayers": [],
+      "minScale": 0,
+      "maxScale": 0,
+      "referenceScale": 0,
+      "drawingInfo": {
+        "renderer": {
+          "type": "uniqueValue",
+          "field1": "ZoningClassification",
+          "field2": "ConditionalUse",
+          "uniqueValueInfos": [
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  182,
+                  252,
+                  221,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "C-4,N",
+              "label": "C-4 (Central Commerical)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  222,
+                  179,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "M-2,N",
+              "label": "M-2 (Heavy Industrial)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  179,
+                  227,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "C-2,N",
+              "label": "C-2 (Highway Commercial)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSBackwardDiagonal",
+                "color": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "C-2,Y",
+              "label": "C-2-CU (Highway Commercial-Conditional Use)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  189,
+                  224,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "M-1,N",
+              "label": "M-1 (Light Industrial)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  88,
+                  245,
+                  88,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "MUPD,N",
+              "label": "MUPD (Multi-Use Planned Development)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  249,
+                  189,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "C-1,N",
+              "label": "C-1 (Neighborhood Commercial)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSBackwardDiagonal",
+                "color": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "C-1,Y",
+              "label": "C-1-CU (Neighborhood Commercial-Conditional Use)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  216,
+                  215,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "OI,N",
+              "label": "OI (Office and Institutional)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  212,
+                  242,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "PDD,N",
+              "label": "PDD (Planned Development District)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  203,
+                  199,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-A,N",
+              "label": "R-A (Residential Agriculture)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  206,
+                  252,
+                  194,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-A2,N",
+              "label": "R-A2 (Residential Agriculture-2 Acre Minimum)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  184,
+                  179,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-A5,N",
+              "label": "R-A5 (Residential Agriculture-5 Acre Minimum)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  252,
+                  184,
+                  205,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-10,N",
+              "label": "R-10 (Residential-High Density)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  255,
+                  85,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-15,N",
+              "label": "R-15 (Residential-Low Density)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  212,
+                  252,
+                  232,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-12,N",
+              "label": "R-12 (Residential-Medium Density)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": [
+                  204,
+                  248,
+                  252,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-12M,N",
+              "label": "R-12M (Residential-Medium Density Mobile Home Park)"
+            },
+            {
+              "symbol": {
+                "type": "esriSFS",
+                "style": "esriSFSBackwardDiagonal",
+                "color": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": [
+                    110,
+                    110,
+                    110,
+                    255
+                  ],
+                  "width": 0.4
+                }
+              },
+              "value": "R-12M,Y",
+              "label": "R-12M-CU (Residential-Medium Density Mobile Home Park-Conditional Use)"
+            }
+          ],
+          "fieldDelimiter": ",",
+          "authoringInfo": {
+            "colorRamp": {
+              "type": "multipart",
+              "colorRamps": [
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    202,
+                    248,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    202,
+                    248,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    179,
+                    250,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    179,
+                    250,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    249,
+                    252,
+                    187,
+                    255
+                  ],
+                  "toColor": [
+                    249,
+                    252,
+                    187,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    194,
+                    192,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    194,
+                    192,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    184,
+                    206,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    184,
+                    206,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    184,
+                    252,
+                    206,
+                    255
+                  ],
+                  "toColor": [
+                    184,
+                    252,
+                    206,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    212,
+                    247,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    212,
+                    247,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    240,
+                    215,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    240,
+                    215,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    208,
+                    182,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    208,
+                    182,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    215,
+                    252,
+                    218,
+                    255
+                  ],
+                  "toColor": [
+                    215,
+                    252,
+                    218,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    187,
+                    211,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    187,
+                    211,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    218,
+                    252,
+                    184,
+                    255
+                  ],
+                  "toColor": [
+                    218,
+                    252,
+                    184,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    216,
+                    202,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    216,
+                    202,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    215,
+                    234,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    215,
+                    234,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    214,
+                    184,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    214,
+                    184,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    252,
+                    215,
+                    225,
+                    255
+                  ],
+                  "toColor": [
+                    252,
+                    215,
+                    225,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    243,
+                    197,
+                    252,
+                    255
+                  ],
+                  "toColor": [
+                    243,
+                    197,
+                    252,
+                    255
+                  ]
+                },
+                {
+                  "type": "algorithmic",
+                  "algorithm": "esriCIELabAlgorithm",
+                  "fromColor": [
+                    187,
+                    252,
+                    233,
+                    255
+                  ],
+                  "toColor": [
+                    187,
+                    252,
+                    233,
+                    255
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "scaleSymbols": true,
+        "transparency": 40,
+        "labelingInfo": null
+      },
+      "defaultVisibility": true,
+      "extent": {
+        "xmin": 1925043.9692258835,
+        "ymin": 693730.8961948901,
+        "xmax": 1974844.7498734742,
+        "ymax": 738781.4999911487,
+        "spatialReference": {
+          "wkid": 102719,
+          "latestWkid": 2264,
+          "xyTolerance": 0.003280833333333333,
+          "zTolerance": 0.001,
+          "mTolerance": 0.001,
+          "falseX": -121841900,
+          "falseY": -93659000,
+          "xyUnits": 36365718.124241434,
+          "falseZ": -100000,
+          "zUnits": 10000,
+          "falseM": -100000,
+          "mUnits": 10000
+        }
+      },
+      "hasAttachments": false,
+      "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+      "displayField": "ZoningClassification",
+      "typeIdField": null,
+      "subtypeFieldName": null,
+      "subtypeField": null,
+      "defaultSubtypeCode": null,
+      "fields": [
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID",
+          "length": 38,
+          "domain": null
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date",
+          "length": 8,
+          "domain": null
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape",
+          "domain": null
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID",
+          "domain": null
+        },
+        {
+          "name": "ZoningClassification",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning Classification",
+          "length": 100,
+          "domain": {
+            "type": "codedValue",
+            "name": "PittsboroZoningClass",
+            "description": "Town of Pittsboro Zoning Classifications",
+            "codedValues": [
+              {
+                "name": "Neighborhood Commercial",
+                "code": "C-1"
+              },
+              {
+                "name": "Highway Commercial",
+                "code": "C-2"
+              },
+              {
+                "name": "Highway Commercial Conditional Use District",
+                "code": "C-2 (CU)"
+              },
+              {
+                "name": "Highway Commercial Conditional Zoning District",
+                "code": "C-2 (CZ)"
+              },
+              {
+                "name": "Central Business District",
+                "code": "C-4"
+              },
+              {
+                "name": "Central Business District Conditional Use District",
+                "code": "C-4 (CU)"
+              },
+              {
+                "name": "Central Business District Conditional Zoning District",
+                "code": "C-4 (CZ)"
+              },
+              {
+                "name": "Light Industrial",
+                "code": "M-1"
+              },
+              {
+                "name": "Light Industrial Conditional Use District",
+                "code": "M-1 (CU)"
+              },
+              {
+                "name": "Light Industrial Conditional Zoning District",
+                "code": "M-1 (CZ)"
+              },
+              {
+                "name": "Heavy Industrial",
+                "code": "M-2"
+              },
+              {
+                "name": "Heavy Industrial Conditional Use District",
+                "code": "M-2 (CU)"
+              },
+              {
+                "name": "Heavy Industrial Conditional Zoning District",
+                "code": "M-2 (CZ)"
+              },
+              {
+                "name": "Multi-Use Planned Development",
+                "code": "MUPD"
+              },
+              {
+                "name": "Office & Institutional",
+                "code": "O-I"
+              },
+              {
+                "name": "Office & Institutional Conditional Use District",
+                "code": "O-I (CU)"
+              },
+              {
+                "name": "Office & Institutional Conditional Zoning District",
+                "code": "O-I (CZ)"
+              },
+              {
+                "name": "Planned Development District",
+                "code": "PDD"
+              },
+              {
+                "name": "High Density Residential",
+                "code": "R-10"
+              },
+              {
+                "name": "High Density Residential Conditional Use District",
+                "code": "R-10 (CU)"
+              },
+              {
+                "name": "High Density Residential Conditional Zoning District",
+                "code": "R-10 (CZ)"
+              },
+              {
+                "name": "Medium Density Residential",
+                "code": "R-12"
+              },
+              {
+                "name": "Medium Density Residential Conditional Use District",
+                "code": "R-12 (CU)"
+              },
+              {
+                "name": "Medium Density Residential Conditional Zoning District",
+                "code": "R-12 (CZ)"
+              },
+              {
+                "name": "Medium Density Residential and Mobile Home Park",
+                "code": "R-12M"
+              },
+              {
+                "name": "Medium Density Residential and Mobile Home Park Conditional Use District",
+                "code": "R-12M (CU)"
+              },
+              {
+                "name": "Medium Density Residential and Mobile Home Park Conditional Zoning District",
+                "code": "R-12M (CZ)"
+              },
+              {
+                "name": "Low Density Residential",
+                "code": "R-15"
+              },
+              {
+                "name": "Low Density Residential Conditional Use District",
+                "code": "R-15 (CU)"
+              },
+              {
+                "name": "Low Density Residential Conditional Zoning District",
+                "code": "R-15 (CZ)"
+              },
+              {
+                "name": "Residential-Agricultural",
+                "code": "R-A"
+              },
+              {
+                "name": "Residential-Agricultural (2 Acres)",
+                "code": "R-A-2"
+              },
+              {
+                "name": "Residential-Agricultural (2 Acres) Conditional Use District",
+                "code": "R-A-2 (CU)"
+              },
+              {
+                "name": "Residential-Agricultural (2 Acres) Conditional Zoning District",
+                "code": "R-A-2 (CZ)"
+              },
+              {
+                "name": "Rural-Agricultural (5 Acres)",
+                "code": "R-A-5"
+              },
+              {
+                "name": "Rural-Agricultural Conditional Use District",
+                "code": "R-A-5 (CU)"
+              },
+              {
+                "name": "Rural-Agricultural Conditional Zoning District",
+                "code": "R-A-5 (CZ)"
+              },
+              {
+                "name": "Residential-Agricultural Conditional Use District",
+                "code": "R-A (CU)"
+              },
+              {
+                "name": "Residential-Agricultural Conditional Zoning District",
+                "code": "R-A (CZ)"
+              },
+              {
+                "name": "Watershed Overlay Critical Area",
+                "code": "WSIV-CA"
+              },
+              {
+                "name": "Watershed Overlay Protection Area",
+                "code": "WSIV-PA"
+              },
+              {
+                "name": "Neighborhood Commercial Conditional Use District",
+                "code": "C-1 (CU)"
+              },
+              {
+                "name": "Neighborhood Commercial Conditional Zoning District",
+                "code": "C-1 (CZ)"
+              },
+              {
+                "name": "Multi-Family Residential",
+                "code": "MR"
+              },
+              {
+                "name": "Multi-Family Residential Conditional Use District",
+                "code": "MR (CU)"
+              },
+              {
+                "name": "Multi-Family Residential Conditional Zoning District",
+                "code": "MR (CZ)"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "ConditionalUse",
+          "type": "esriFieldTypeString",
+          "alias": "Conditional Use",
+          "length": 1,
+          "domain": {
+            "type": "codedValue",
+            "name": "Yes/No",
+            "description": "Used for fields needing yes or no designation",
+            "codedValues": [
+              {
+                "name": "Yes",
+                "code": "Y"
+              },
+              {
+                "name": "No",
+                "code": "N"
+              }
+            ],
+            "mergePolicy": "esriMPTDefaultValue",
+            "splitPolicy": "esriSPTDefaultValue"
+          }
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments",
+          "length": 255,
+          "domain": null
+        },
+        {
+          "name": "SquareMiles",
+          "type": "esriFieldTypeDouble",
+          "alias": "Square Miles",
+          "domain": null
+        },
+        {
+          "name": "Acreage",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acreage",
+          "domain": null
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length",
+          "domain": null
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area",
+          "domain": null
+        }
+      ],
+      "geometryField": {
+        "name": "SHAPE",
+        "type": "esriFieldTypeGeometry",
+        "alias": "Shape"
+      },
+      "indexes": [
+        {
+          "name": "FDO_OBJECTID",
+          "fields": "OBJECTID",
+          "isAscending": true,
+          "isUnique": true,
+          "description": ""
+        },
+        {
+          "name": "FDO_SHAPE",
+          "fields": "SHAPE",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        },
+        {
+          "name": "FDO_GlobalID",
+          "fields": "GlobalID",
+          "isAscending": true,
+          "isUnique": false,
+          "description": ""
+        }
+      ],
+      "subtypes": [],
+      "relationships": [],
+      "canModifyLayer": true,
+      "canScaleSymbols": false,
+      "hasLabels": false,
+      "capabilities": "Map,Query,Data",
+      "maxRecordCount": 2000,
+      "supportsStatistics": true,
+      "supportsExceedsLimitStatistics": true,
+      "supportsAdvancedQueries": true,
+      "supportedQueryFormats": "JSON, geoJSON, PBF",
+      "isDataVersioned": false,
+      "ownershipBasedAccessControlForFeatures": {
+        "allowOthersToQuery": true
+      },
+      "useStandardizedQueries": true,
+      "supportedSpatialRelationships": [
+        "esriSpatialRelIntersects",
+        "esriSpatialRelContains",
+        "esriSpatialRelCrosses",
+        "esriSpatialRelEnvelopeIntersects",
+        "esriSpatialRelIndexIntersects",
+        "esriSpatialRelOverlaps",
+        "esriSpatialRelTouches",
+        "esriSpatialRelWithin",
+        "esriSpatialRelRelation"
+      ],
+      "advancedQueryCapabilities": {
+        "useStandardizedQueries": true,
+        "supportsStatistics": true,
+        "supportsPercentileStatistics": true,
+        "supportsHavingClause": true,
+        "supportsOrderBy": true,
+        "supportsDistinct": true,
+        "supportsCountDistinct": true,
+        "supportsPagination": true,
+        "supportsLod": false,
+        "supportsQueryWithLodSR": false,
+        "supportsTrueCurve": true,
+        "supportsQueryWithDatumTransformation": true,
+        "supportsReturningQueryExtent": true,
+        "supportsQueryWithDistance": true,
+        "supportsSqlExpression": true,
+        "supportsTimeRelation": true,
+        "supportsSqlFormat": false,
+        "supportsQueryAnalytic": false
+      },
+      "supportsDatumTransformation": true,
+      "dateFieldsTimeReference": null,
+      "preferredTimeReference": null,
+      "datesInUnknownTimezone": false,
+      "hasGeometryProperties": true,
+      "geometryProperties": {
+        "shapeAreaFieldName": "SHAPE_Area",
+        "shapeLengthFieldName": "SHAPE_Length",
+        "units": "esriFeet"
+      },
+      "hasMetadata": true,
+      "isDataArchived": false,
+      "archivingInfo": {
+        "supportsQueryWithHistoricMoment": false,
+        "startArchivingMoment": -1
+      },
+      "supportsCoordinatesQuantization": true,
+      "supportsDynamicLegends": true
+    }
+  ],
+  "tables": []
+}

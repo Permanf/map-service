@@ -1,5 +1,6 @@
 import fetch from 'node-fetch';
 import express from 'express';
+import { writeFile } from 'fs/promises'; 
 
 const app = express();
 app.get('/api/landUsePlanning', async (req, res) => {
@@ -10,7 +11,7 @@ app.get('/api/landUsePlanning', async (req, res) => {
       const response = await fetch(url);
       const data = await response.json();
       console.log(data,"---1")
-  
+      await writeFile('apiResponseFirst.json', JSON.stringify(data, null, 2))
       res.json(data);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -45,6 +46,8 @@ app.get('/api/map-service', async (req, res) => {
     }
 
     console.log(attributesArray,"---2")
+    await writeFile('apiResponseSecond.json', JSON.stringify({attributesArray}, null, 2))
+
 
     res.json(attributesArray);
   } catch (error) {
